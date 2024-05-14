@@ -61,7 +61,8 @@ public class Application1 {
         System.out.println("sum에 10을 더하면 현재 sum의 값은? : " + sum);
 
 
-
+        System.out.println("여기는 집 컴퓨터입니다. 저는 지금 테스트를 해보고 있오요");
+        
 
 
     }
