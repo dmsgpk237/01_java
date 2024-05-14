@@ -70,7 +70,7 @@ public class Application2 {
 
         str = "안녕하세요";
 
-        //선어놔 동시에 초기화도 가능하다.
+        //선언과 동시에 초기화도 가능하다.
         int point = 100;
 
         System.out.println("===== 변수에 저장된 값 출력 =====");
