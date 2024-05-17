@@ -1,6 +1,4 @@
-package com.dmsgpk.section.method;
-
-import java.util.random.RandomGenerator;
+package com.dmsgpk.section01.method;
 
 public class Application3 {
 

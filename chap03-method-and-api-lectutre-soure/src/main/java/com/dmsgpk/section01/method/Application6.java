@@ -1,4 +1,4 @@
-package com.dmsgpk.section.method;
+package com.dmsgpk.section01.method;
 
 public class Application6 {
 

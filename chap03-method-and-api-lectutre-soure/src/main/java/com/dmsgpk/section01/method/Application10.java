@@ -1,6 +1,4 @@
-package com.dmsgpk.section.method;
-
-import org.w3c.dom.ls.LSOutput;
+package com.dmsgpk.section01.method;
 
 public class Application10 {
 
