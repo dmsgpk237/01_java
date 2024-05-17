@@ -86,6 +86,7 @@ public class Application1 {
         boolean isTrue = sc.nextBoolean();
         System.out.print("입력하신 논리 값은 " + isTrue + " 입니다.");
 
+        sc.nextLine(); //개행문자 남은걸 지워줘야 에러가 발생하지 않는다. 
         System.out.println();
         System.out.println("아무 문자나 입력하세요 : ");
         String str = sc.nextLine();
