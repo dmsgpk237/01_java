@@ -24,7 +24,11 @@ public class _Application {
         // dSwitch.testSwitchVendingMachine();
 
         D_switch_test dSwitchTest = new D_switch_test();
-        D_switch_test.testSimpleSwitch2Statement();
+        // D_switch_test.testSimpleSwitch2Statement();
+
+        E_study eStudy = new E_study();
+        eStudy.testStudyIfStatement();
+        eStudy.testStudySwitchStatement();
 
     }
 }
