@@ -30,6 +30,8 @@ public class _Application {
         eStudy.testStudyIfStatement();
         eStudy.testStudySwitchStatement();
 
+        //이건 집에서 해보는 숙제입니담!
+
     }
 }
 
