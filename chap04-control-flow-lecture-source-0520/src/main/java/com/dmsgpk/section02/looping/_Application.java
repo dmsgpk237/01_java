@@ -5,8 +5,13 @@ public class _Application {
     public static void main(String[] args) {
 
         A_for a_for = new A_for();
+        // a_for.testSimpleForStatement();
+        // a_for.testForExample1();
+        // a_for.testForExample2();
+        // a_for.testExample3();
         // a_for.PrintSimpleGugudan();
         // a_for.testExample4();
+        // a_for.testExample0();
         A_nestedFor a_nestedFor = new A_nestedFor();
         // a_nestedFor.printGugudanFromTwoToNine();
         // a_nestedFor.printGugudanFromTwoToNine();
@@ -26,11 +31,6 @@ public class _Application {
         // t.printTriangleStar();
         // t.printTriangleStar2();
          t.printTriangleStar3();
-
-
-
-
-
 
 
     }
