@@ -28,8 +28,8 @@ public class _Application {
         // c_doWhile.testDoWhileExample1();
 
         test t = new test();
-        // t.printTriangleStar();
-        // t.printTriangleStar2();
+         t.printTriangleStar();
+         t.printTriangleStar2();
          t.printTriangleStar3();
 
 
