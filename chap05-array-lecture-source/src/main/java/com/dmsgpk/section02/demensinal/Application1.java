@@ -53,12 +53,14 @@ public class Application1 {
             System.out.print(arr2[2][i]+ " ");
 
         }
+        System.out.println();
 
-//        for (int j = 0; j < arr2.length; j++);{
-//            for (int i = 0; i < arr2[j].length; i++) {
-//                System.out.println(arr2[j][i] + " ");
-//            }
-//            System.out.println();
-//        }
+        System.out.println("========== 이중 for 문으로 이차원배열 출력 ==========");
+        for (int j = 0; j < arr2.length; j++) {
+            for (int i = 0; i < arr2[j].length; i++) {
+                System.out.print(arr2[j][i] + " ");
+            }
+            System.out.println();
+        }
     }
 }

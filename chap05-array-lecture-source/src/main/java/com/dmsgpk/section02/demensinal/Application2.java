@@ -32,7 +32,7 @@ public class Application2 {
 
         int num = 1;
 
-        for (int i = 0; i < iarr[0].length; i++) {
+        for (int i = 0; i < iarr.length; i++) {
 
             for (int j = 0; j < iarr[i].length; j++) {
                 iarr[i][j] = num;
@@ -67,19 +67,17 @@ public class Application2 {
 
 
         // 각 인덱스 배열에 접근
-//        for (int i = 0; i < iarr.length; i++) {
-//
-//            System.out.println(i + "번째 인덱스 배열");
-//
-//            // 각 인덱스의 배열값에 차례로 출력하는 반복문
-//            for (int i = 0; i < iarr.length; i++) {
-//
-//                for (int j = 0; j < iarr[i].length; i++) {
-//
-//                    System.out.println(iarr[i][j] + " ");
-//                }
-//            }
-//            System.out.println();
-//        }
+        for (int i = 0; i < iarr.length; i++) {
+
+            System.out.println(i + "번째 인덱스 배열");
+
+            // 각 인덱스의 배열값에 차례로 출력하는 반복문
+            for (int j = 0; j < iarr[i].length; j++) {
+
+                System.out.print(iarr[i][j] + " ");
+
+            }
+            System.out.println();
+        }
     }
 }

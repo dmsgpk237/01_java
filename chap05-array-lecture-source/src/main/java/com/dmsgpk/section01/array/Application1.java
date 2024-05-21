@@ -54,7 +54,7 @@ public class Application1 {
 
         for(int i = 0, value = 0; i < arr.length; i++) {
             value += 10;
-            arr[i] +=value;
+            arr[i] += value;
             System.out.println("arr[" + i + "] = " + arr[i]);
         }
 
