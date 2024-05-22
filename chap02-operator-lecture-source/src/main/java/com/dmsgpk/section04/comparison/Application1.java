@@ -77,7 +77,7 @@ public class Application1 {
 //        System.out.println("ch1이 ch2보다 작거나 같은지 비교 : " + (ch1 <= ch2));
 
         //문자열 비교
-        // --와 !=는 비교가 가능하지만 대소 비교는 불가능하다.
+        // ==와 !=는 비교가 가능하지만 대소 비교는 불가능하다.
 
         String str1 = "java";
         String str2 = "java";
