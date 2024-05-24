@@ -24,5 +24,17 @@ public class Application {
         // 매개변수 있는 생성자를 호출해 인스턴스(객체) 생성
         User user2 = new User("User01", "pass01", "홍길동");
         System.out.println(user2.getInfo());
+
+        System.out.println();
+
+        // 모든 필드를 초기화 하는 생성자를 호출해 인스턴스(객체) 생성
+        User user3 = new User("user02", "pass02", "권은혜", new java.util.Date());
+        System.out.println(user3.getInfo());
+
+        // 복사 생성자를 호출해 인스턴스(객체) 생성
+        User user4 = new User(user3);
+        System.out.println(user4.getInfo());
+
+
     }
 }

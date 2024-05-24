@@ -61,9 +61,48 @@ public class User {
         this.name = name;
 
         System.out.println("User 클래스의 id, pwd, name을 초기화 하는 생성자 호출함...");
+    }
 
+    // 모든 필드를 초기화하는 생성자 (id, pwd, name, enrollDate)
 
+    public User(String id, String pwd, String name, java.util.Date enrollDate) {
 
+//        this.id = id;
+//        this.pwd = pwd;
+//        this.name = name;
+//        this.enrollDate = enrollDate;
+
+        /*
+        * this() 사용하기
+        * this() 는 동일 클래스 내에 작성한 다른 생성자 메소드를 호출하는 구문이다.
+        * 괄호 안에 매개변수의 타입, 객수, 순서에 맞는 생성자를 호출하고 복귀한다.(메소드 동일)
+        * this() 는 가장 첫 줄에 선언해야 하며, 그렇지 않은 경우 Compile Error가 발생한다.
+        * */
+
+        this(id, pwd, name); // 미리 작성한 3개의 필드를 초기화하는 생성자로 매개변수로 받은 값을 전달.
+
+        this.enrollDate = enrollDate;
+
+        System.out.println("User 클래스의 모든 필드를 초기화 하는 생성자를 호출함...");
+    }
+
+    /*
+    * 복사 생성자
+    *
+    * -> 같은 내용의 인스턴스를 만들 때 사용
+    * 동일한 값을 가지지만 새롭게 할당되는 인스턴스이기 때문에 서로 다른 주소값을 가지게 된다.
+    *  => 깊은 복사
+    * */
+
+    public User(User otherUser) {
+        this.id = otherUser.id;
+        this.pwd = otherUser.pwd;
+        this.name = otherUser.name;
+        this.enrollDate = otherUser.enrollDate;
+
+        System.out.println("User 클래스의 복사 생성자 호출함...");
+        System.out.println("this의 hashcode : " + this.hashCode());
+        System.out.println("otherUser의 hashcode : " + otherUser.hashCode());
     }
 
 
