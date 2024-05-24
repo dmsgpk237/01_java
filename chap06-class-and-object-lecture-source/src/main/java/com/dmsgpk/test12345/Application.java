@@ -5,13 +5,21 @@ import java.util.Scanner;
 public class Application {
 
     public static void main(String[] args) {
-        Puppy01 puppy01 = new Puppy01();
 
-        puppy01.puppyName("max");
+        Puppy01 puppy01 = new Puppy01(); // 이게 우리가 퍼피라는 인스턴스를 만든 것
+
+        puppy01.puppyName("max"); //인스턴스에 퍼피 네임을 참조해서 이름을 넣어주는 것
         puppy01.puppyAge(5);
         puppy01.puppyKinds("골든 리트리버");
 
         System.out.println("1번 문제 답: " + puppy01.getInfo());
+
+        Puppy01 puppy011 = new Puppy01();
+
+        puppy011.puppyAge(10);
+        puppy011.puppyName("무적이");
+        puppy011.puppyKinds("진돗개");
+        System.out.println(puppy011.getInfo());
 
         // System.out.println("이 강아지의 이름은 : " + puppy01.puppyAge();); 이렇게는 선언이 안 됨
         // 여기서 값을 줘서 그런 것 같음. puppy 페이지에서 값을 줄 공간을 만들어서 그 공간 자체를 프린트 하는 건 됨.

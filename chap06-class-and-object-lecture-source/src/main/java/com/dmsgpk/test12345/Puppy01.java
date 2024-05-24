@@ -25,7 +25,7 @@ public class Puppy01 {
     }
 
     public String getInfo() {
-        return "이 강아지의 이름은 : " + this.name + " 이며, 나이는 : " + this.age + " 이고, 종류는 : " + this.kinds + " 입니다.";
+        return "이 강아지의 이름은 : " + this.name + " 이며, 나이는 : " + this.age + "살 이고, 종류는 : " + this.kinds + " 입니다.";
     }
 
 
