@@ -29,8 +29,20 @@ public class Tesla03 {
         this.price = price;
     }
 
-    public String getInfo() {
-        return "2";
+    public String getModel() {
+        return model;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public String getKinds() {
+        return kinds;
+    }
+
+    public int getPrice() {
+        return price;
     }
 
 }
