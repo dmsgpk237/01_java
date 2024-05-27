@@ -7,16 +7,18 @@ public class MemberRegister {
 
         System.out.println("회원을 등록합니다.");
 
-        // 실제로 저장되지는 않았고, repository의 메소드를 통해 repository에 저장할 예정
-
+        // 멤버스 안에 있는 객체를 하나씩 꺼내서 m이라는 변수에 넣고 m을 하나씩 꺼내서 반복
         for (Member m : members) {
-            System.out.println(m.getName() + "님을 회원등록에 성공했습니다.");
+
+            System.out.println(m.getName() + "님을 회원 등록에 성공했습니다.");
         }
 
-        MemberRepository.store(members); //주소값만 받아왔음
+        // 주소값만 받아왔음.
+        MemberRepository.store(members); // 레파지토리 클래스에 있는 스토어 메소드에 멤버를..? 반환..?
 
-        if(MemberRepository.store(members)) {
-            System.out.println("총" + members.length + "명의 회원 등록에 성공했습니다ㅏ.");
+        if (MemberRepository.store(members)) {
+            System.out.println("총" + members.length + "명의 회원 등록에 성공했습니다.");
+
 
         }
     }
