@@ -11,8 +11,9 @@ HellDice
 public class HellDice implements Dice{
 
     @Override
-    public int getNumber(int Number) {
+    public int getNumber() {
         return 4;
+
     }
 
 }
