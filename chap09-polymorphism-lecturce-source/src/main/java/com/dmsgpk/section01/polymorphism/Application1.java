@@ -1,6 +1,6 @@
 package com.dmsgpk.section01.polymorphism;
 
-public class Application {
+public class Application1 {
 
     /*
     * 다형성
