@@ -24,7 +24,7 @@ public class Application1 {
 
         System.out.println('a'); // 문자열이 아닌 문자는 홀따옴표로 감싸주어야 한다.
 
-        System.out.println('ㅁ'); //문자열은 쌍따옴표로 감싸주어야 한다.
+        System.out.println("ㅁ"); //문자열은 쌍따옴표로 감싸주어야 한다.
 
         System.out.println('1'); //홀따옴표 안에 있기 때문에 문자로 인식된다.
 

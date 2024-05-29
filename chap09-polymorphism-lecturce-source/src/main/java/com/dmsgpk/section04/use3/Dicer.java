@@ -14,10 +14,11 @@ package com.dmsgpk.section04.use3;
 
 public class Dicer{
 
+    // Dice를 매개변수로 받아온다 Dice dice
     public void throwDice(Dice dice) {
 
-        int diceNumber = dice.getNumber();
-        System.out.println(diceNumber);
+        int diceNum = dice.getNumber();
+        System.out.println(diceNum);
     }
 
 }
