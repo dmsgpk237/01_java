@@ -5,19 +5,11 @@ public class StringProcess {
 
         System.out.println(hw);
         String[] sarr = hw.split("");
-        System.out.println();
+        sarr[0] = sarr[0].toUpperCase();
 
-//       String sarr[] = hw.substring(0, 1);
-//        sarr[1] = hw.substring(1);
-
-        // 앞부분 자른 애를 대문자로 바꾸고 뒷 부분이랑 합쳐서 리턴해주면 됨
-        for (int i = 0; i < sarr.length; i++) {
-            System.out.println("sarr[" + i + "] : " + sarr[i]);
-        }
-
-        String c = sarr[0].toUpperCase();
-
-        String result = c.concat(sarr[1]);
+        String result = sarr[0].concat(sarr[1]).concat(sarr[2]).concat(sarr[3])
+                .concat(sarr[4]).concat(sarr[5]).concat(sarr[6]).concat(sarr[7])
+                .concat(sarr[8]).concat(sarr[9]).concat(sarr[10]);
 
         return result;
     }

@@ -6,6 +6,7 @@ public class Application3 {
     public static void main(String[] args) {
         /*
         * valueOf : 기본자료형 값을 Wrapper 클래스 타입으로 변환시키는 메소드
+        * (Wrapper class : 기본 타입에 해당하는 데이터를 객체로 포장해 주는 클래스)
         * toString : 필드값을 문자열로 반환하는 메소드
         *
         * */

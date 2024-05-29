@@ -7,7 +7,7 @@ public class Application3 {
     // Object의 hashCode()
     public static void main(String[] args) {
         /*
-        * Object 클래스의 명세에 작성된 일반 규약에 따르
+        * Object 클래스의 명세에 작성된 일반 규약에 따르면
         * equals 메서드를 재정의 하는 경우 hashCood() 메서드도 재정의 하도록 되어있다.
         *
         * => 같은 값을 가지는 동등 객체는 같은 해시코드 값을 가져야 한다는 규약
