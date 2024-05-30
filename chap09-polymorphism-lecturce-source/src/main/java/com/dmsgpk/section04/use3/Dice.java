@@ -1,5 +1,5 @@
 package com.dmsgpk.section04.use3;
-
+// 인터페이스는 하나의 다리, 연결고리다. 동일한 메서드를 타입에 따라 다르게 실현
 public interface Dice {
 
     /*

@@ -61,6 +61,7 @@ public class Member {
         this.birth = birth;
     }
 
+    // 모든 필드값을 하나의 문자열로 바꿔주는 기능.
     @Override
     public String toString() {
         return "Member{" +
