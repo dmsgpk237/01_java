@@ -26,6 +26,9 @@ public class Car {
 
     @Override
     public boolean equals(Object obj) {
+        // 여기서 this는 mycar
+        // 모든 객체는 object에 상속된다. 그래서 this는 주소를 담고 있다.
+        // car를 상속받는 mycar가 가진 주소가 가리키는 객체와 obj가 가진 주소가 가리키는 객체와 같으면 true를 반환하겠다는 것.
         if (this == obj) return true;
 
         if (obj == null || getClass() != obj.getClass()) return false;
@@ -46,4 +49,5 @@ public class Car {
         return result;
 
     }
+
 }

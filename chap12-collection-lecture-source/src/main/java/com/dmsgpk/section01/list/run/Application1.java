@@ -71,7 +71,7 @@ public class Application1 {
         // toString 메서드가 오버라이딩 되어 있음.
         System.out.println(list);
 
-        //arrayList의 크기는 size() 확인할 수 있다.
+        // arrayList의 크기는 size() 확인할 수 있다.
         // size()는 사실 요소의 개수를 반환한다.
         System.out.println(list.size());
 
@@ -111,7 +111,7 @@ public class Application1 {
         stringList.add("grape");
 
         System.out.println(stringList);
-        
+
         /*
         * sort 정렬(abc 순서로 정렬..?)
         * Collections -> 인터페이스 -> 바로사용불가 ->

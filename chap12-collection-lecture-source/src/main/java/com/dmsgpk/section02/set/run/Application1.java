@@ -23,7 +23,7 @@ public class Application1 {
         HashSet<String> hSet = new HashSet<>();
 //        Set sSet = new HashSet<>();
 //        Collection hset2 = new HashSet();
-        // > 사용은 가능하나 첫 번째 방법을 가장 많이 사용함.
+        // > 사용은 가능하나 잘 사용하지 않고, 첫 번째 방법을 가장 많이 사용함.
 
         hSet.add(new String("java"));
         hSet.add("oracle");
