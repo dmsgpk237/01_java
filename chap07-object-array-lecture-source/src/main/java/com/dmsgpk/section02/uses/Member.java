@@ -13,7 +13,7 @@ public class Member {
     private char gender;
 
 
-    // 매개변수의 값을 입력받는 생성자를 만들었다. Member 클래스 안에 있는 private 사용해 선언한 변수를에 매개변수 값을 입력하겠다!
+    // 매개변수의 값을 입력받는 생성자를 만들었다. Member 클래스 안에 있는 private 사용해 선언한 변수들에 매개변수 값을 입력하겠다!
     public Member(int num, String id, String pwd, String name, int age, char gender) {
         this.num = num;
         this.id = id;
