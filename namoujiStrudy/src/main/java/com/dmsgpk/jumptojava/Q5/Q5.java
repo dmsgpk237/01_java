@@ -1,4 +1,4 @@
-package com.dmsgpk.jumptojava;
+package com.dmsgpk.jumptojava.Q5;
 
 public class Q5 {
     //Q5. 문자열 바꾸기

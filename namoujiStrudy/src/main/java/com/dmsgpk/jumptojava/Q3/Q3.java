@@ -1,4 +1,4 @@
-package com.dmsgpk.jumptojava;
+package com.dmsgpk.jumptojava.Q3;
 
 public class Q3 {
 

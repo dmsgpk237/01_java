@@ -1,4 +1,4 @@
-package com.dmsgpk.jumptojava;
+package com.dmsgpk.jumptojava.Q4;
 
 public class Q4 {
     // Q4. 원하는 숫자 추출하기

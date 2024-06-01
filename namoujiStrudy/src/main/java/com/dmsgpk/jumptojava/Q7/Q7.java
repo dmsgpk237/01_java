@@ -1,4 +1,4 @@
-package com.dmsgpk.jumptojava;
+package com.dmsgpk.jumptojava.Q7;
 
 import java.util.ArrayList;
 import java.util.Arrays;

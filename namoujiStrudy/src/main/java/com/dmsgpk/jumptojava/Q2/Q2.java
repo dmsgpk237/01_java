@@ -1,4 +1,4 @@
-package com.dmsgpk.jumptojava;
+package com.dmsgpk.jumptojava.Q2;
 
 public class Q2 {
     // Q2. 홀수 짝수 판별하기
