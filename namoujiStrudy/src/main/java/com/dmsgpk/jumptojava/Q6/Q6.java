@@ -8,6 +8,7 @@ public class Q6 {
 
 
         int a = 19;
+        // 우선 커밋을 하겠습니다.
 
     }
 }
