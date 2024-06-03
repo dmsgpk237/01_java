@@ -32,7 +32,7 @@ public class Application3 {
             fout.write(barr, 1, 3);
             // 1번 인덱스에서 3의 길이만큼 파일이 작성됨.
 
-            
+
         } catch (FileNotFoundException e) {
 
             throw new RuntimeException(e);
