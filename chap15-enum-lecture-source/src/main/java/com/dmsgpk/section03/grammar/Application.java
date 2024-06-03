@@ -32,7 +32,7 @@ public class Application {
         Iterator<UserRole2> iter = roles.iterator();
         while (iter.hasNext()) {
             System.out.println(iter.next().name());
-            
+
         }
 
     }

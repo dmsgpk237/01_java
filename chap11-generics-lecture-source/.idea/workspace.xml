@@ -5,38 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddfe7051-d339-45a9-8b46-06053ff625ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/driver.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/driver.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/driver.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/main/java/com/dmsgpk/section02/set/run/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/main/java/com/dmsgpk/section02/set/run/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/main/java/com/dmsgpk/section03/map/run/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap12-collection-lecture-source/src/main/java/com/dmsgpk/section03/map/run/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section01/exception/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section01/exception/Application2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section01/exception/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section01/exception/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section02/Application1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section02/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section02/exception/MoneyNegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section02/exception/NegativeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section02/exception/NotEnoughMoneyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-exception-lecture-source/src/main/java/com/dmsgpk/section02/exception/PriceNegativeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap07-object-array-lecture-source/src/main/java/com/dmsgpk/section02/uses/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap07-object-array-lecture-source/src/main/java/com/dmsgpk/section02/uses/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../namoujiStrudy/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../namoujiStrudy/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-practice-source/src/main/java/com/ohgiraffers/exception/charcheck/CharCheckException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-practice-source/src/main/java/com/ohgiraffers/exception/charcheck/CharacterProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap13-practice-source/src/main/java/com/ohgiraffers/exception/charcheck/run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/dmsgpk/section03/grammar/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/dmsgpk/section03/grammar/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,20 +42,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/80405/Desktop/dmsgpk/01_java/chap06-class-and-object-lecture-source&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/80405/Desktop/dmsgpk/01_java/chap11-generics-lecture-source",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -105,6 +77,7 @@
       <workItem from="1717124780686" duration="2807000" />
       <workItem from="1717138852334" duration="27000" />
       <workItem from="1717138979479" duration="105000" />
+      <workItem from="1717403060916" duration="18000" />
     </task>
     <servers />
   </component>
