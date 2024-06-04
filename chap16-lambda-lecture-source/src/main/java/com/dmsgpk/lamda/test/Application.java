@@ -13,8 +13,6 @@ public class Application {
         app.test3();
         app.test4();
         app.test5();
-
-
     }
 
     /*
@@ -27,7 +25,6 @@ public class Application {
     private void test1() {
         Consumer<LocalTime> consumer = time -> System.out.println("현재 시각은 : " + time);
         consumer.accept(LocalTime.now());
-
     }
 
     /*
@@ -44,24 +41,31 @@ public class Application {
         // 이걸 6개를 발생시킨다. 이건 반복문으로 넣어준다.
         // 발생시킨 랜덤 난수 중 같은 수가 나오지 않도록 ListSet으로 묶어준다.
         // 묶은 List를 출력한다.
+        // set에는 중복된 숫자가 저장이 안 됨, 그러니까 while문을 써서 6보다 커지면 빠져나오게 하고
+        // 그 전에는 랜덤 숫자를 hashSet.add로 넣을 수 있게 하면 됨!!
 
 
 
+        // supplier<이 안에 들어가는 것은 리턴 값입니다요. 서플라이어만>
+        Supplier<Set<Integer>> supplier = () -> {
+            HashSet<Integer> hashSet = new HashSet<>(6);
+
+            while(true) {
+
+                hashSet.add((int) (Math.random() * 45) + 1);
 
 
-        HashSet<Integer> hashSet = new HashSet<>(6);
-        // 반복문을 써서 값을 넣어주면 됨
-        int i = 0;
+                if (hashSet.size() == 6) {
 
-        for (i = 0; i < hashSet.size(); i++) {
+                    break;
+                }
 
-
-        }
-        double a = (Math.random() * 45) + 1;
-
-        hashSet.add((int) a);
-        System.out.println(hashSet);
-
+                //
+            }
+            return hashSet;
+        };
+        Set<Integer> set = supplier.get();
+        System.out.println(set);
 
 
         ObjIntConsumer<java.util.Random> objIntConsumer =
@@ -80,7 +84,6 @@ public class Application {
      * 현재 1달러는 1350원이다.
      * </pre>
      */
-
 
     private void test3() {
         Scanner sc = new Scanner(System.in);
@@ -102,7 +105,6 @@ public class Application {
 		System.out.println(result6);
         * */
 
-
     }
 
     /*
@@ -111,6 +113,7 @@ public class Application {
      * 3번 문제를 jdk가 제공하는 Function 함수형 인터페이스 형식에 맞게 변형하세요.
      * </pre>
      */
+
     private void test4() {
         Scanner sc = new Scanner(System.in);
 
@@ -119,7 +122,6 @@ public class Application {
         String string = sc.nextLine();
         String price = String.format("%.2f", ((double) function.apply(string) / 1350));
         System.out.println("입력하신 ￦" + string + "을 환율한 달러 값은 : $" + price + " 입니다.");
-
 
         //Function<>
         // 펑션을 사용할게욥
@@ -136,6 +138,7 @@ public class Application {
      * 문자열리스트 {"abc","","대한민국","   "}를 체크하세요.
      * </pre>
      */
+
     private void test5() {
         List<String> strList = Arrays.asList("abc", "", "대한민국", "   ");
 
@@ -149,7 +152,6 @@ public class Application {
 
         // chap12-section01-Application1 확인
 
-
         Predicate<String> isNonEmptyString = str -> str.trim().length() != 0;
 
         for (String str : strList) {
@@ -160,7 +162,5 @@ public class Application {
         // 지정된 문자열의 길이가 0인지 체크한다.
         // 지정된 문자열이 0이면 true, 0이 아니면 false를 반환한다.
 
-
     }
-
 }
