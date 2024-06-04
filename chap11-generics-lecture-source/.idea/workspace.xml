@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddfe7051-d339-45a9-8b46-06053ff625ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../chap13-practice-source/src/main/java/com/ohgiraffers/exception/charcheck/CharCheckException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-practice-source/src/main/java/com/ohgiraffers/exception/charcheck/CharacterProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chap13-practice-source/src/main/java/com/ohgiraffers/exception/charcheck/run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/dmsgpk/section03/grammar/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chap15-enum-lecture-source/src/main/java/com/dmsgpk/section03/grammar/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/lamda/test/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section01/intro/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section01/intro/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section01/intro/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section01/intro/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section01/intro/OuterCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section02/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section02/Application2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section02/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section02/Application4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section02/Application5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section03/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section03/Application1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chap16-lambda-lecture-source/src/main/java/com/dmsgpk/section03/Application2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +52,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/80405/Desktop/dmsgpk/01_java/chap11-generics-lecture-source",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/80405/Desktop/dmsgpk/01_java/chap11-generics-lecture-source&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,6 +88,7 @@
       <workItem from="1717138852334" duration="27000" />
       <workItem from="1717138979479" duration="105000" />
       <workItem from="1717403060916" duration="18000" />
+      <workItem from="1717479927849" duration="13000" />
     </task>
     <servers />
   </component>

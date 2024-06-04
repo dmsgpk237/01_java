@@ -11,7 +11,7 @@ public class Application2 {
         /*
          * Calendar 클래스를 이용한 인스턴스 생성 방법에는 두 가지 방법이 있다.
          * 1. getInstance() static 메소드를 이용해서 인스턴스를 반환받는 방법
-         * 2. 후손 클래스인 GregorianCalendar클래스를 이용해서 인스턴스를 생성하는 방법
+         * 2. 후손 클래스인 GregorianCalendar 클래스를 이용해서 인스턴스를 생성하는 방법
          * */
 
         Calendar calendar = Calendar.getInstance();
