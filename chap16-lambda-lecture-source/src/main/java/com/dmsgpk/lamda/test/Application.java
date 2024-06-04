@@ -1,9 +1,7 @@
 package com.dmsgpk.lamda.test;
 
 import java.time.LocalTime;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 import java.util.function.*;
 
 public class Application {
@@ -25,6 +23,7 @@ public class Application {
      * 현재시각 HH:mm:ss.SSS을 출력하는 람다식을 작성
      * </pre>
      */
+
     private void test1() {
         Consumer<LocalTime> consumer = time -> System.out.println("현재 시각은 : " + time);
         consumer.accept(LocalTime.now());
@@ -38,7 +37,33 @@ public class Application {
      * - 리턴타입 Set<Integer> //Supplier
      * </pre>
      */
+
     private void test2() {
+
+        // 랜덤 난수를 발생시킨다.
+        // 이걸 6개를 발생시킨다. 이건 반복문으로 넣어준다.
+        // 발생시킨 랜덤 난수 중 같은 수가 나오지 않도록 ListSet으로 묶어준다.
+        // 묶은 List를 출력한다.
+
+
+
+
+
+        HashSet<Integer> hashSet = new HashSet<>(6);
+        // 반복문을 써서 값을 넣어주면 됨
+        int i = 0;
+
+        for (i = 0; i < hashSet.size(); i++) {
+
+
+        }
+        double a = (Math.random() * 45) + 1;
+
+        hashSet.add((int) a);
+        System.out.println(hashSet);
+
+
+
         ObjIntConsumer<java.util.Random> objIntConsumer =
                 ((random, value) -> System.out.println("당신의 당첨 번호는 : " +
                         "(" + random.nextInt(value +1) + "), (" + random.nextInt(value +1) + "), ("
@@ -55,6 +80,8 @@ public class Application {
      * 현재 1달러는 1350원이다.
      * </pre>
      */
+
+
     private void test3() {
         Scanner sc = new Scanner(System.in);
         System.out.println("금액을 입력하세요 : ");
@@ -74,6 +101,7 @@ public class Application {
 		String result6 = String.format("%.2f", num);
 		System.out.println(result6);
         * */
+
 
     }
 
@@ -110,6 +138,17 @@ public class Application {
      */
     private void test5() {
         List<String> strList = Arrays.asList("abc", "", "대한민국", "   ");
+
+        /*
+         * ArrayList
+         * -> 배열의 단점을 보완하기 위해 만들어졌다.
+         * 배열의 단점 : 크기 변경 불가, 요소의 추가, 수정, 삭제, 졍렬이 복잡함.
+         * 크기 변경(더 큰 배열을 새롭게 만들어 옮기기), 요소의 추가, 수정, 삭제, 정렬 기능을
+         * 미리 메서드로 구현해서 제공한다.
+         * */
+
+        // chap12-section01-Application1 확인
+
 
         Predicate<String> isNonEmptyString = str -> str.trim().length() != 0;
 
