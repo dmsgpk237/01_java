@@ -24,7 +24,7 @@ public class Application1 {
 
     }
         /*
-        * [접근제어자 public] [반환값 void] [변환타입 method] [메소드이름 A](메개변수...]) {
+        * [접근제어자 public] [반환타입 void] [메소드이름 methodA]([매개변수...]) {
         *
         *  // 실행 할 코드
         *

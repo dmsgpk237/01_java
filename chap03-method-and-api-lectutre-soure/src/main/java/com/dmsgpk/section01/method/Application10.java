@@ -9,6 +9,15 @@ public class Application10 {
         int num1 = 16;
         int num2 = 5;
 
+         /*  Calculator Class에
+            더하기, 빼기,  곱하기, 나누기, 나머지
+            이 각각을 수행할 수 있는 메서드를 만들고
+            Applicaion10의 main 메서드에 출력하라.
+
+            (더하기, 빼기, 곱하기, 나누기 => non-static
+            나머지 => static)
+        */
+
         //더하기
         System.out.println("두 수를 더한 결과 : " + calc.plusNumber(num1, num2));
 
