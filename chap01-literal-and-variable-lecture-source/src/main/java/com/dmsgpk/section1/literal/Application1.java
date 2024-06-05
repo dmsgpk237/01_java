@@ -4,7 +4,8 @@ public class Application1 {
     public static void main(String[] args) {
 
         /* 여기 사이에 있는 글자나 문자는 모든게 주석이 된다.
-        *         System.out.println("a");
+        *
+        System.out.println("a");
         System.out.println("b");
         System.out.print("c");
         System.out.print("d");
@@ -14,6 +15,7 @@ public class Application1 {
         System.out.print("syso + enter");
         *
         */
+
         //(주석) 수업목표 : 여러가지 값의 형태를 출력 할 수 있다.
 
         System.out.println(123);

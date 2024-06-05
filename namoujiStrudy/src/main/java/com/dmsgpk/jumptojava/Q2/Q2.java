@@ -3,7 +3,7 @@ package com.dmsgpk.jumptojava.Q2;
 public class Q2 {
     // Q2. 홀수 짝수 판별하기
     public static void main(String[] args) {
-        int a = 13;
+        int a = 15;
 
         int ab = a % 2;
 
