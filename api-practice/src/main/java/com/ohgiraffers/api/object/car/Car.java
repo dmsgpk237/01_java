@@ -1,6 +1,4 @@
-package com.dmsgpk.api.object.car;
-
-import java.util.Objects;
+package com.ohgiraffers.api.object.car;
 
 public class Car {
 

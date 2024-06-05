@@ -1,7 +1,6 @@
 package com.ohgiraffers.api.string;
 
 public class StringProcess {
-
     public String preChar(String helloWorld) {
         // 1. 매개변수 전달이 잘 되는지 확인
         System.out.println("hello world : " + helloWorld);
@@ -43,4 +42,5 @@ public class StringProcess {
         }
         return count;
     }
+
 }
