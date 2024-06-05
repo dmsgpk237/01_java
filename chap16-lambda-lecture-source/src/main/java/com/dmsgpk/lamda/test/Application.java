@@ -1,6 +1,7 @@
 package com.dmsgpk.lamda.test;
 
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.function.*;
 
@@ -13,6 +14,7 @@ public class Application {
         app.test3();
         app.test4();
         app.test5();
+        app.tset4_1();
     }
 
     /*
@@ -23,8 +25,11 @@ public class Application {
      */
 
     private void test1() {
-        Consumer<LocalTime> consumer = time -> System.out.println("현재 시각은 : " + time);
-        consumer.accept(LocalTime.now());
+//        LocalTime localTime = LocalTime.now();
+//        localTime.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
+        Consumer<LocalTime> consumer = (time) ->
+            System.out.println("현재 시각은 : " + time.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+                consumer.accept(LocalTime.now());
     }
 
     /*
@@ -46,7 +51,8 @@ public class Application {
 
 
 
-        // supplier<이 안에 들어가는 것은 리턴 값입니다요. 서플라이어만>
+        // supplier<이 안에 들어가는 것은 리턴 값(객체)입니다요.>
+        // 컬렉션 -> 컬렉션에서 다룰 수 있는 데이터는 기본적으로 객체만 가능하다 -> Integer를 사용한 이유
         Supplier<Set<Integer>> supplier = () -> {
             HashSet<Integer> hashSet = new HashSet<>(6);
 
@@ -68,12 +74,12 @@ public class Application {
         System.out.println(set);
 
 
-        ObjIntConsumer<java.util.Random> objIntConsumer =
-                ((random, value) -> System.out.println("당신의 당첨 번호는 : " +
-                        "(" + random.nextInt(value +1) + "), (" + random.nextInt(value +1) + "), ("
-                + random.nextInt(value +1) + "), (" + random.nextInt(value +1) + "), (" + random.nextInt(value +1) + "), ("
-                + random.nextInt(value +1) + ") 입니다!"));
-        objIntConsumer.accept(new java.util.Random(), 45);
+//        ObjIntConsumer<java.util.Random> objIntConsumer =
+//                ((random, value) -> System.out.println("당신의 당첨 번호는 : " +
+//                        "(" + random.nextInt(value +1) + "), (" + random.nextInt(value +1) + "), ("
+//                + random.nextInt(value +1) + "), (" + random.nextInt(value +1) + "), (" + random.nextInt(value +1) + "), ("
+//                + random.nextInt(value +1) + ") 입니다!"));
+//        objIntConsumer.accept(new java.util.Random(), 45);
 
     }
 
@@ -132,6 +138,21 @@ public class Application {
     }
 
     /*
+    * @실습문제4-1
+    * 위 문제를 jdk가 제공하는 BiFunction 함수형인터페이스 형식에 맞게 변형하세요
+    * 원화, 환율을 입력받아 변환된 달러를 리턴하도록 만드세요i
+    * */
+
+    public void tset4_1() {
+        BiFunction<Integer, Double, Double> calc = (won, rate) ->
+        {return won / rate;};
+
+        double dollar = calc.apply(2000, 1350.0);
+        System.out.println("dollar = " + dollar);
+
+    }
+
+    /*
      * <pre>
      * @실습문제5
      * 공백을 제외한 문자열의 길이가 0인지를 체크하는 람다식을 만들고,
@@ -150,12 +171,27 @@ public class Application {
          * 미리 메서드로 구현해서 제공한다.
          * */
 
-        // chap12-section01-Application1 확인
+        /* 리스트를 만드는 방법
+            (1)
+            Arrays.asList() : 나열된 값을 리스트로 만들어준다.
+            asList()로 만든 리스트의 경우, 컬렉션 프레임 워크가 아닌 Arrays 클래스 내부의
+            static inner class로 만들어진다 -> 추가, 삭제 불가능 / 변경만 가능
 
-        Predicate<String> isNonEmptyString = str -> str.trim().length() != 0;
+            (2)
+            List.of() : 팩토리메서드, 나열된 값을 리스트로 만들어준다.
+            List.of()로 만든 리스트는 ImmutableCollections 객체의 내부 클래스인 ListN 클래스로 List 생성
+            추가 삭제가 불가능하며, 변경만 가능하다.
+
+            List.of(), Array.asList() -> 추가, 삭제 불가능하게 한 이유
+            : 불변객체여야 다른 컬렉션으로 변환하기 용이하기 때문.
+        */
+
+        // chap12-section01-Application1 확인
+        Predicate<String> isNonEmptyString = str -> str.trim().length() == 0;
 
         for (String str : strList) {
-            System.out.println("String: " + str + ", Is Non-empty: " + isNonEmptyString.test(str));
+            // 문자열을 trim() -> 공백을 앞 뒤로 다 지워주는 기능을 사용해 앞 뒤 공백을 다 지운다.
+            System.out.println("String: '" + str + "'의 문자열 길이가 0입니까?: " + isNonEmptyString.test(str));
         }
 
         // 아래 지정된 문자열이 있음.
