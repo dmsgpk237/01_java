@@ -1,6 +1,6 @@
 package com.dmsgpk.section03.stringbuilder;
 
-public class Application2 {
+public class  Application2 {
     //StringBuilder의 자주 사용되는 메서드
 
     public static void main(String[] args) {
